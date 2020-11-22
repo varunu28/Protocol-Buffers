@@ -1,6 +1,8 @@
 // The syntax of this file is proto3
 syntax="proto3";
 
+import "basics/date.proto";
+
 /* Person is used to identify
  * users across system*/
 message Person {
@@ -21,4 +23,18 @@ message Person {
     }
 
     EyeColor eye_color = 8;
+
+    // Person birthday
+    my.date.Date birthday = 9;
+
+    message Address {
+        string address_line_1 = 1;
+        string address_line_2 = 2;
+        string zip_code = 3;
+        string city = 4;
+        string country = 5;
+    }
+
+    // multiple addresses
+    repeated Address addresses = 10;
 }

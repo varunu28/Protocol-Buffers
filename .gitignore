@@ -1,3 +1,5 @@
 protobuf-java-example/build
 protobuf-java-example/gradle
 protobuf-java-example/.gradle
+protobuf-go-example/src/*/*.pb.go
+protobuf-go-example/go.sum

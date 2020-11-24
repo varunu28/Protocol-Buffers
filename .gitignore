@@ -3,3 +3,6 @@ protobuf-java-example/gradle
 protobuf-java-example/.gradle
 protobuf-go-example/src/*/*.pb.go
 protobuf-go-example/go.sum
+protobuf-python-example/*/*_pb2.py
+protobuf-python-example/*/__pycache__/
+protobuf-python-example/venv
